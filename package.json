@@ -1,0 +1,48 @@
+{
+  "name": "react-native-wallpaper-changer",
+  "version": "1.0.0",
+  "description": "A React Native module to change Android wallpaper from gallery image using Kotlin",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist",
+    "android",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inshal1998/react-native-wallpaper-changer.git"
+  },
+  "keywords": [
+    "react-native",
+    "wallpaper",
+    "android",
+    "kotlin",
+    "native-module"
+  ],
+  "author": "Inshal Ansari <inshalansari80@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inshal1998/react-native-wallpaper-changer/issues"
+  },
+  "homepage": "https://github.com/inshal1998/react-native-wallpaper-changer#readme",
+  "devDependencies": {
+    "@types/react-native": "^0.72.8",
+    "react-native": "^0.80.0",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.70.0"
+  },
+  "react-native": {
+    "android": {
+      "sourceDir": "android"
+    }
+  }
+}
