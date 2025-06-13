@@ -1,0 +1,15 @@
+# Don't include test/dev files
+node_modules/
+example/
+android/app/build/
+android/**/build/
+**/*.apk
+**/*.so
+__tests__/
+*.log
+*.tgz
+tsconfig.json
+.gitignore
+babel.config.js
+metro.config.js
+*.iml
